@@ -1,0 +1,68 @@
+body {
+  background-color: #545e75;
+}
+
+.img-header {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+  margin: 10px auto;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f2d0a4;
+}
+
+#info-perso fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.personnal {
+  background-color: #ecd7bc;
+  border: 1px solid #3f826d;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.personnal:focus {
+  outline: none;
+}
+
+.btn {
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  font-size: 20px;
+  border: 1px solid #f2d0a4;
+  border-radius: 5px;
+  color: #f2d0a4;
+  background-color: #3f826d;
+}
+
+.btn:hover {
+  background-color: #f2d0a4;
+  color: #3f826d;
+  border-color: #3f826d;
+}
+
+.title,
+.title__form {
+  color: #c03221;
+}
+
+.title {
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.title__form {
+  font-weight: bold;
+}

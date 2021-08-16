@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/pngegg.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Entrainement formulaires</title>
+</head>
+<body>
+    <div class="container">
+
+        
+        <h1 class="title">Petit entrainement au formulaires</h1>
+        <img src="../img/form-img.png" alt="" class="img-header">
+        <p>Petit entrainement au formulaire pour mon JB des bois XD </p>
+
+        <form action="" id="info-perso">
+            <fieldset>
+
+                <legend class="title__form">Information personnelles :</legend>
+
+                <div class="container__input">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" class="personnal">
+                </div>
+
+                <div class="container__input">
+                    <label for="lastname">Prenom :</label>
+                    <input type="text" id="lastname" class="personnal">
+                </div>
+
+                <div class="container__input">
+                    <label for="age">Tranche d'age :</label>
+                    <select name="age" id="age" class="personnal">
+                        <option value="0-15">0 à 15</option>
+                        <option value="16-18">16 à 18</option>
+                        <option value="19-25">19 à 25</option>
+                        <option value="26-45">26 à 45</option>
+                        <option value="46-60">46 à 60</option>
+                        <option value="61-90">61 à 90</option>
+                    </select>
+                </div>
+
+                <button class="btn">Valider</button>
+
+            </fieldset>
+        </form>
+
+        <form action="" id="calcules">
+            <fieldset>
+                <legend class="title__form">Addition</legend>
+
+                <label for="addition">Addition a combien de chiffre ?</label>
+
+                <select name="addition" id="nbr-addition" class="personnal">
+                    <option value="1" selected disabled>choisissez le nombre de chiffre</option>
+                    <option value="2">Addition a deux chiffres</option>
+                    <option value="3">Addition a trois chiffres</option>
+                    <option value="4">Addition a quatre chiffres</option>
+                </select>
+
+                <!-- ici on vas essayer de faire apparaitre dynamiquement un ou plusieurs input -->
+                <div id="calcul">
+
+                </div>
+                
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
