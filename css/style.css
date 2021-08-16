@@ -13,16 +13,18 @@ body {
   flex-direction: column;
   text-align: center;
   width: 30%;
-  margin: 10px auto;
-  border: 1px solid black;
+  margin: 20px auto;
+  border: 1px solid #3f826d;
+  color: #295c4c;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 25px 10px;
   background-color: #f2d0a4;
 }
 
 #info-perso fieldset {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .personnal {
@@ -34,6 +36,7 @@ body {
 
 .personnal:focus {
   outline: none;
+  background-color: #eee1d1;
 }
 
 .btn {
@@ -51,6 +54,8 @@ body {
   background-color: #f2d0a4;
   color: #3f826d;
   border-color: #3f826d;
+  transform: scale(1.2);
+  transition: background-color 1s, color 2s, border-color 2s, transform 1s;
 }
 
 .title,
@@ -65,4 +70,9 @@ body {
 
 .title__form {
   font-weight: bold;
+}
+
+fieldset {
+  border-color: #3f826d;
+  border-radius: 25px 10px;
 }
